@@ -155,6 +155,8 @@
 .icon-twitter:before { content: '\e807'; } /* '' */
 .icon-vine:before { content: '\e808'; } /* '' */
 .icon-behance:before { content: '\e809'; } /* '' */
+.icon-location:before { content: '\e80a'; } /* '' */
+.icon-plus-outline:before { content: '\e80b'; } /* '' */
 /*=============================================================
 ==============================================================*/
 .padding
@@ -823,12 +825,13 @@
   }
   .about-hiring
   {
-    padding-bottom: 146px;
+    padding-bottom: 85px;
   }
   .about-item
   {
     padding: 86px 82px 71px;
     border: 1px solid #a9acae;
+    width: 100%;
   }
   .about-item1
   {
@@ -836,30 +839,13 @@
     padding-bottom: 110px;
     padding-bottom: 71px;
     border: 1px solid #c59a6d;
+    width: 100%;
   }
-  .about-plus-line
+  .about-plus i
   {
-    position: relative;
-  }
-  .about-plus-line1
-  {
-    position: absolute;
-    width: 44px;
-    height: 2px;
-    background-color: #c79e72;
-    left: 50%;
-    top: 55%;
-    margin-left: -12%;
-  } 
-  .about-plus-line2
-  {
-    position: absolute;
-    width: 2px;
-    height: 44px;
-    background-color: #c79e72;
-    left: 50%;
-    top: 50%;
-    margin-left: -3%;
+    font-size: 44px;
+    color: #d1ae8a;
+    display: inline-block;
   }
   .about-btn i
   {
@@ -949,6 +935,172 @@
   .twitter-pagination  .active
   {
     background-color: #c59a6d;
+  }
+  
+}
+.contacts
+{
+  background-color: #282f35;
+  padding-top: 150px;
+  border-bottom: 3px solid #c59a6d;
+
+  .contacts-title
+  {
+    font-size: 30px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0;
+    font-family: "ProximaNovaBold";
+    padding-bottom: 45px;
+    text-transform: uppercase;
+  }
+  .contacts-line
+  {
+    height: 2px;
+    width: 60px;
+    background-color: #c59a6d;
+    margin-bottom: 85px;
+    display: inline-block;
+  }
+  .address-title
+  {
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+    font-family: "ProximaNovaBold";
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+  }
+  .address-title i
+  {
+    font-size: 25px;
+    color: #c59a6d;
+    margin-right: 14px;
+  }
+  .address-text
+  {
+    font-size: 18px;
+    line-height: 48px;
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+    padding-left: 50px;
+  }
+  .contacts-social a
+  {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .contacts-social i
+  {
+    font-size: 22px;
+    color: #fff;
+    display: inline-block;
+  } 
+  .contacts-social a:last-child
+  {
+    margin-right: 0;
+  }
+  .contacts-social
+  {
+    padding-top: 50px;
+    padding-left: 42px;
+  }
+  input[type="text"]
+  {
+    outline: none;
+    border: none;
+    background-color: #1e2429;
+    color: #fff;
+    font-style: italic;
+    padding: 10px 10px;
+    width:100%;
+    padding: 10px 10px;
+    border-top: 3px solid #1e2429;
+    display: inline-block;
+      width:100%;
+  }
+  input[type="text"]:focus
+  {
+    border-top: 3px solid #a4825f;
+  }
+  .form-content
+  {
+    margin: 0;
+    margin-bottom: 50px;
+    display: inline-block;
+    background-color: #1e2429;
+    color: #fff;
+    font-style: italic;
+    width:100%;
+    border-top: 3px solid #1e2429;
+    display: inline-block;
+  }
+  .form-content:focus
+  {
+    border-top: 3px solid #a4825f;
+  }
+  textarea
+  {
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: #1e2429;
+    color: #fff;
+    font-style: italic;
+    padding: 10px 10px;
+    border-top: 3px solid #1e2429;
+    margin-bottom: 80px;
+    
+  }
+  textarea:focus
+  {
+     border-top: 3px solid #a4825f;
+  }
+  input[type="submit"]
+  {
+    outline: none;
+    border: none;
+    display: inline-block;
+    background-color: #c59a6d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "ProximaNovaBold";
+    padding: 17px 58px;
+
+  }
+  .contacts-copyright
+  {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 158px;
+    padding-bottom: 48px;
+  } 
+  .contacts-copyright span
+  {
+    color: #c59a6d;
+  }
+  .contacts-back-btn a
+  {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+  .contacts-back-btn i
+  {
+    color: #c69b6e;
+  }
+  .contacts-back-btn
+  {
+    padding-top: 155px;
   }
 
 }
